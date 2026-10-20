@@ -32,5 +32,6 @@ public class IfElseIfLadder {
         }
 
         System.out.println(dayName);
+
     }
 }
