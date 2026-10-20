@@ -12,7 +12,8 @@ public class Activity2_LaguyoJ {
 
         int percent = 100;
 
-        double sum = income + foodAllowance + transportation + rent + utilityBill;
+        double sum = foodAllowance + transportation + rent + utilityBill;
+
         double foodPercentage = foodAllowance / income * percent;
         double transpoPercentage = transportation / income * percent;
         double rentPercentage = rent / income * percent;
@@ -25,7 +26,7 @@ public class Activity2_LaguyoJ {
 
         System.out.println(title);
 
-        System.out.printf("Income: %1f%%%n", income);
+        System.out.println("Income:" +  income);
         System.out.printf("Food Allowance: %.1f%%%n", foodPercentage);
         System.out.printf("Transportation: %.1f%%%n", transpoPercentage);
         System.out.printf("Rent:%.1f%%%n", rentPercentage);

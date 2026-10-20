@@ -3,11 +3,11 @@ package com.joysistvi.day3.variable;
 public class Variable {
 
     public static void main(String[] args) {
-        byte age = 33;
-        System.out.println(age);
+        //byte age = 3;
+        //System.out.println(age);
 
-        double price = 10.5;
-        System.out.println(price);
+        //double price = 10.5;
+        //System.out.println(price);
 
         char middleInitial= 'P';
         System.out.println(middleInitial);
@@ -17,8 +17,8 @@ public class Variable {
 
         System.out.println("Full Name:" + lastName + ", " + firstName + " " + middleInitial + ".");
 
-        Integer positiveIntegers = 9;
-        System.out.println(positiveIntegers);
+       int positiveIntegers = 9;
+       System.out.println(positiveIntegers);
 
         short bankAccount = -132;
         System.out.println(bankAccount);
@@ -34,6 +34,9 @@ public class Variable {
 
         boolean is_active = true;
         System.out.println(is_active);
+
+        int number = 19;
+        System.out.println(number);
 
     }
 }

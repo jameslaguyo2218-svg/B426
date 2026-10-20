@@ -21,6 +21,7 @@ public class ArithmeticOperator {
 
         int num = 20;
         int num2 = 3;
+        
         int sum = num + num2;
         int difference = num - num2;
         int product = num * num2;
