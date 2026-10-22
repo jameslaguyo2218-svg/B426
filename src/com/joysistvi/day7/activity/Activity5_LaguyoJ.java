@@ -1,5 +1,7 @@
 package com.joysistvi.day7;
+
 import java.util.Scanner;
+
 public class Activity5_LaguyoJ {
     static Scanner sc = new Scanner(System.in);
     public static void main(String[] args) {
